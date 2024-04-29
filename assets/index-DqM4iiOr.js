@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/TwinkleUpdater-Cn6HHbFC.js","assets/OptionsColor-BLrAj1qt.js","assets/index-C9_eWPxX.js","assets/index-JAAk9KWO.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as r}from"./index-C9_eWPxX.js";async function n(t,a=!0){await t.addParticleUpdater("twinkle",async()=>{const{TwinkleUpdater:e}=await r(()=>import("./TwinkleUpdater-Cn6HHbFC.js"),__vite__mapDeps([0,1,2,3]));return new e},a)}export{n as loadTwinkleUpdater};
