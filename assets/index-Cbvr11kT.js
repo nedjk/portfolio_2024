@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/TiltUpdater-B6Vlitnd.js","assets/index-v3hpYkwK.js","assets/index-BQ6BeaxI.css","assets/ValueWithRandom-CPhx2iSX.js","assets/AnimationOptions-YVfiWPjD.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-v3hpYkwK.js";async function d(t,a=!0){await t.addParticleUpdater("tilt",async r=>{const{TiltUpdater:e}=await i(()=>import("./TiltUpdater-B6Vlitnd.js"),__vite__mapDeps([0,1,2,3,4]));return new e(r)},a)}export{d as loadTiltUpdater};
